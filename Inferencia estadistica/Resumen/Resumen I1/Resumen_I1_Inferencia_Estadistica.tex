@@ -1,0 +1,46 @@
+﻿\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable, theorems}
+\usepackage[margin=2.5cm]{geometry}
+
+% Definición de colores
+\definecolor{maincolor}{RGB}{41, 128, 185}
+\definecolor{defcolor}{RGB}{39, 174, 96}
+\definecolor{thmcolor}{RGB}{142, 68, 173}
+\definecolor{notecolor}{RGB}{230, 126, 34}
+
+% Configuración de las cajas
+\newtcbtheorem[number within=section]{definicion}{}%
+{colback=defcolor!5,colframe=defcolor!80!black,fonttitle=\bfseries, breakable}{def}
+
+\newtcbtheorem[number within=section]{teorema}{Teorema}%
+{colback=thmcolor!5,colframe=thmcolor!80!black,fonttitle=\bfseries, breakable}{thm}
+
+\newtcolorbox{nota}[1][]{colback=notecolor!5,colframe=notecolor!80!black,fonttitle=\bfseries, breakable, title=#1}
+
+\title{\textbf{\color{maincolor}Resumen I1 - Inferencia Estadística}}
+\author{Santiago Franulic}
+\date{}
+
+% Configuraciones extra
+\renewcommand{\arraystretch}{1.4}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=maincolor,
+    urlcolor=maincolor,
+    citecolor=maincolor
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+
+\end{document}
+
