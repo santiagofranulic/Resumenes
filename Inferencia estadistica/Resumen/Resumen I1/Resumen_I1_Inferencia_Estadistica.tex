@@ -159,8 +159,45 @@
 \newpage
 \section{Estimación de Parámetros}
 
+\begin{definicion}{Estimadores Puntuales}{}
+    Son funciones $\hat{\theta} = g(X_1, ..., X_n)$ de la muestra $X_1, ..., X_n$ que se utilizan para estimar el parámetro desconocido $\theta$.
+\end{definicion}
 
+\begin{definicion}{Función de Verosimilitud}{}
+    Es una función que asigna un valor de probabilidad a cada posible valor del parámetro $\theta$, dado que se ha observado una muestra $X_1, ..., X_n$.
+    \begin{equation}
+        L(\theta | x_1, ..., x_n) = f(x_1, ..., x_n | \theta) = \prod_{i=1}^n f(x_i | \theta)
+    \end{equation}
+\end{definicion}
+
+\begin{definicion}{Estimador de Máxima Verosimilitud}{EMV}
+    Es el valor de $\theta$ que maximiza la función de verosimilitud.
+    \begin{equation}
+        \hat{\theta}_{EMV} = \arg\max_{\theta \in \Theta} L(\theta | x_1, ..., x_n)
+    \end{equation}
+    Metodo:
+    \begin{enumerate}
+        \item Calcular la función de verosimilitud $L(\theta | x_1, ..., x_n)$.
+        \item Calcular la log-verosimilitud $l(\theta | x_1, ..., x_n) = \log L(\theta | x_1, ..., x_n)$. (Es mas facil derivar el logaritmo que la función original).
+        \item Derivar la log-verosimilitud con respecto a $\theta$ y igualarla a 0.
+        \item Resolver la ecuación para $\theta$.
+    \end{enumerate}
+    \begin{nota}[]
+        La resolución siempre es el maximo global al operar con funciones concavas (log-verosimilitud).
+    \end{nota}
+\end{definicion}
+
+\newpage
+
+
+
+        
     
     
+    
+
+
+
+
 \end{document}
 

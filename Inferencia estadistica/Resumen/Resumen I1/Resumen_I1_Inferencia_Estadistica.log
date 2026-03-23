@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  23 MAR 2026 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  23 MAR 2026 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,8 +745,12 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
+) (Resumen_I1_Inferencia_Estadistica.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 11.
 )
-No file Resumen_I1_Inferencia_Estadistica.aux.
 \openout1 = `Resumen_I1_Inferencia_Estadistica.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -769,8 +773,6 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 39.
 
 (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -832,6 +834,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 39.
+(Resumen_I1_Inferencia_Estadistica.out) (Resumen_I1_Inferencia_Estadistica.out)
 \@outlinefile=\write4
 \openout4 = `Resumen_I1_Inferencia_Estadistica.out'.
 
@@ -846,13 +849,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-No file Resumen_I1_Inferencia_Estadistica.toc.
+(Resumen_I1_Inferencia_Estadistica.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write5
 \openout5 = `Resumen_I1_Inferencia_Estadistica.toc'.
 
-[1
+ [1
 
-{C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] 
+[5]
 (Resumen_I1_Inferencia_Estadistica.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -861,33 +868,35 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `Resumen_I1_Inferencia_Estadistica.out' ha
-s changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Resumen_I1_Inferencia_Estadistica.o
-ut':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Resumen_I1_Inferencia_Estadistica.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: 26FA1EAC4FF311E4B50FE547306D50BC;625.
  ) 
 Here is how much of TeX's memory you used:
- 25929 strings out of 467870
- 516357 string characters out of 5418355
- 943457 words of memory out of 5000000
- 54426 multiletter control sequences out of 15000+600000
- 633877 words of font info for 63 fonts, out of 8000000 for 9000
+ 26058 strings out of 467870
+ 519675 string characters out of 5418355
+ 953573 words of memory out of 5000000
+ 54530 multiletter control sequences out of 15000+600000
+ 635774 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,6n,121p,572b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb>
-Output written on Resumen_I1_Inferencia_Estadistica.pdf (1 page, 32789 bytes).
+ 116i,8n,121p,572b,1162s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1095.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santi/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
+anti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on Resumen_I1_Inferencia_Estadistica.pdf (5 pages, 134706 bytes)
+.
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
