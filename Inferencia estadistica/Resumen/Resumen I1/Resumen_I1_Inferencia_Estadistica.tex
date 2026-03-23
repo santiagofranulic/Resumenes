@@ -50,7 +50,7 @@
 \begin{definicion}{Tipos de Estudios Estadísticos}{}
     \begin{itemize}
         \item Segun el objetivo:\\
-    \begin{tabular}{l|l}
+    \begin{tabular}{|l|l|}
         \hline
         \textbf{Analitico} & Busca explicar una relación causa-efecto entre variables.\\
         \hline
@@ -59,7 +59,7 @@
     \end{tabular}
     \vspace{0.1cm}
     \item Segun el periodo de tiempo:\\
-    \begin{tabular}{l|l}
+    \begin{tabular}{|l|l|}
         \hline
         \textbf{Transversal} & Analiza en un unico momento en el tiempo.\\
         \hline
@@ -68,7 +68,7 @@
     \end{tabular}
     \vspace{0.1cm}
     \item Segun el control de variables:\\
-    \begin{tabular}{l|l}
+    \begin{tabular}{|l|l|}
         \hline
         \textbf{Observacional} & No interviene el investigador.\\
         \hline
@@ -77,7 +77,7 @@
     \end{tabular}
     \vspace{0.1cm}
     \item Segun la dirección temporal:\\
-    \begin{tabular}{l|l}
+    \begin{tabular}{|l|l|}
         \hline
         \textbf{Prospectivo} & Analiza el fenómeno en el futuro.\\
         \hline
@@ -103,5 +103,64 @@
     \end{itemize}
 \end{definicion}
 
+\newpage
+\section{Sesgos de Selección}
+
+\begin{definicion}{Sesgos de Selección}{}
+    Es el error de seleccionar una muestra no representativa de la población.
+    \begin{nota}[Principio Base]
+        Ningún experimento es perfecto, siempre habrá sesgos segun diseño, medición, análisis y muestra.
+    \end{nota}
+    \begin{itemize}
+        \item Sesgos transversales: 
+        \begin{itemize}
+            \item Cobertura incompleta
+            \item Participación desigual - No respuesta
+            \item Selección no representativa
+            \item Exclusion sistematica
+        \end{itemize}
+        \item Sesgos longitudinales:
+        \begin{itemize}
+            \item Perdida de seguimiento (sobretodo la perdida no aleatoria $\rightarrow$ sesgo del sobreviviente)
+            \item Disponibilidad desigual de datos $\rightarrow$ no respuesta parcial o total
+        \end{itemize}
+    \end{itemize}
+\end{definicion}
+
+\newpage
+\section{Modelos Paramétricos}
+
+\begin{definicion}{Modelos Paramétricos}{}
+    Es una familia de distribuciones de probabilidad para una variable aleatoria $X$:
+    \[ \mathcal{F} = \{ f(x|\theta) : \theta \in \Theta \} \quad \text{donde } \theta \in \Theta \text{ es un vector de parámetros.} \]
+\end{definicion}
+
+\begin{definicion}{Familia Exponencial}{}
+    Es un modelo paramétrico que se puede escribir como:
+    \[ f(x|\theta) = h(x) \exp{\left( \sum_{i=1}^s \eta_i(\theta) T_i(x) - B(\theta) \right)}\]
+    O de forma equivalente:
+    \[ f(x|\theta) = h(x) c(\theta) \exp{\langle \eta(\theta), T(x) \rangle}\]
+    Esta familia comparte propiedades muy útiles para la inferencia estadística.
+\end{definicion}
+
+\begin{definicion}{Condiciones de Regularidad}{}
+    \begin{itemize}
+        \item El espacio de parámetros $\Theta$ es un conjunto abierto.
+        \item El soporte $\mathcal{X}$ de la variable aleatoria no depende de $\theta$.
+        \item Existen derivadas hasta segundo orden de $f(x|\theta)$ con respecto a $\theta$.
+        \item Se puede intercambiar el orden de integración y derivación.
+        \item Para todo $\theta \in \Theta$, $\int_{\mathcal{X}} f(x|\theta) dx = 1$.
+    \end{itemize}
+    \begin{nota}[Recordatorio]
+        El soporte de una distribución de probabilidad es el conjunto de valores que la variable aleatoria puede tomar.
+    \end{nota}
+\end{definicion}
+
+\newpage
+\section{Estimación de Parámetros}
+
+
+    
+    
 \end{document}
 
