@@ -3,3 +3,4 @@
 \contentsline {section}{\numberline {2}Sesgos de Selección}{3}{section.2}%
 \contentsline {section}{\numberline {3}Modelos Paramétricos}{4}{section.3}%
 \contentsline {section}{\numberline {4}Estimación de Parámetros}{5}{section.4}%
+\contentsline {section}{\numberline {5}Evaluación de Estimadores Puntuales}{6}{section.5}%

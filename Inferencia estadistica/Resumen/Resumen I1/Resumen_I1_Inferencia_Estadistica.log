@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  23 MAR 2026 20:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  23 MAR 2026 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,7 +859,7 @@ LaTeX Info: Redefining \% on input line 1.
  [1
 
 {C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] 
-[5]
+[5] [6]
 (Resumen_I1_Inferencia_Estadistica.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -870,16 +870,16 @@ L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `Resumen_I1_Inferencia_Estadistica.out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 26FA1EAC4FF311E4B50FE547306D50BC;625.
+(rerunfilecheck)             Checksum: 9102D6BE4BAA746E9CF52A24255E8304;855.
  ) 
 Here is how much of TeX's memory you used:
- 26058 strings out of 467870
- 519675 string characters out of 5418355
- 953573 words of memory out of 5000000
- 54530 multiletter control sequences out of 15000+600000
+ 26100 strings out of 467870
+ 520342 string characters out of 5418355
+ 953706 words of memory out of 5000000
+ 54560 multiletter control sequences out of 15000+600000
  635774 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,8n,121p,572b,1162s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,9n,121p,572b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -893,10 +893,10 @@ anti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on Resumen_I1_Inferencia_Estadistica.pdf (5 pages, 134706 bytes)
+Output written on Resumen_I1_Inferencia_Estadistica.pdf (6 pages, 147679 bytes)
 .
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
