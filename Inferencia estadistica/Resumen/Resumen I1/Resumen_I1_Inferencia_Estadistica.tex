@@ -165,16 +165,16 @@
 
 \begin{definicion}{Función de Verosimilitud}{}
     Es una función que asigna un valor de probabilidad a cada posible valor del parámetro $\theta$, dado que se ha observado una muestra $X_1, ..., X_n$.
-    \begin{equation}
+    \begin{equation*}
         L(\theta | x_1, ..., x_n) = f(x_1, ..., x_n | \theta) = \prod_{i=1}^n f(x_i | \theta)
-    \end{equation}
+    \end{equation*}
 \end{definicion}
 
 \begin{definicion}{Estimador de Máxima Verosimilitud}{EMV}
     Es el valor de $\theta$ que maximiza la función de verosimilitud.
-    \begin{equation}
+    \begin{equation*}
         \hat{\theta}_{EMV} = \arg\max_{\theta \in \Theta} L(\theta | x_1, ..., x_n)
-    \end{equation}
+    \end{equation*}
     Metodo:
     \begin{enumerate}
         \item Calcular la función de verosimilitud $L(\theta | x_1, ..., x_n)$.
@@ -189,9 +189,39 @@
 
 \newpage
 
+\section{Evaluación de Estimadores Puntuales}
 
+\begin{definicion}{Sesgo}{}
+    Mide la exactitud de un estimador.
+    \begin{equation*}
+        \text{Sesgo}(\hat{\theta}) = E[\hat{\theta}] - \theta
+    \end{equation*}
+    \begin{itemize}
+        \item $\text{Sesgo}(\hat{\theta}) > 0 \implies $ Sobreestimado
+        \item $\text{Sesgo}(\hat{\theta}) < 0 \implies $ Subestimado
+        \item $\text{Sesgo}(\hat{\theta}) = 0 \implies $ Insesgado
+    \end{itemize}
+\end{definicion}
 
-        
+\begin{definicion}{Varianza}{}
+    Mide la precision de un estimador.
+    \begin{equation*}
+        \text{Var}(\hat{\theta}) = E[(\hat{\theta} - E[\hat{\theta}])^2] = E[\hat{\theta}^2] - (E[\hat{\theta}])^2
+    \end{equation*}
+\end{definicion}
+
+\begin{definicion}{Error Cuadrático Medio}{ECM}
+    Mide la exactitud y precision de un estimador.
+    \begin{equation*}
+        \begin{array}{ll}
+            \text{ECM}(\hat{\theta}) = & E[(\hat{\theta} - \theta)^2] \\
+            & = E[(\hat{\theta} - E(\hat{\theta})) + (E(\hat{\theta}) - \theta)]^2 \\
+            & = E[(\hat{\theta} - E(\hat{\theta}))^2] + 2E[(\hat{\theta} - E(\hat{\theta}))(E(\hat{\theta}) - \theta)] + E[(E(\hat{\theta}) - \theta)^2] \\
+            & = \text{Var}(\hat{\theta}) + 2(E(\hat{\theta}) - \theta)E[(\hat{\theta} - E(\hat{\theta}))] + (E(\hat{\theta}) - \theta)^2 \\
+            & = \text{Var}(\hat{\theta}) + (\text{Sesgo}(\hat{\theta}))^2
+        \end{array}
+    \end{equation*}
+\end{definicion}       
     
     
     
